@@ -45,14 +45,14 @@ class MyFunctionsTest < MiniTest::Test
     assert_equal( true, result )
   end
 
-  # def test_is_item_in_array__false
-  #   # arrange
-  #   houses = [ "Hufflepuff", "Slytherin", "Gryffindor", "Ravenclaw" ]
-  #   # act
-  #   result = is_item_in_array( houses, "Harkonnen" )
-  #   # assert
-  #   assert_equal( false, result )
-  # end
+  def test_is_item_in_array__false
+    # arrange
+    houses = [ "Hufflepuff", "Slytherin", "Gryffindor", "Ravenclaw" ]
+    # act
+    result = is_item_in_array( houses, "Harkonnen" )
+    # assert
+    assert_equal( false, result )
+  end
 
   ################################################################
 

@@ -16,4 +16,5 @@ def is_item_in_array(array, item)
       return true
     end
   end
+  return false
 end
