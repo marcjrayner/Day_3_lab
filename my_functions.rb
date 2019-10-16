@@ -18,3 +18,15 @@ def is_item_in_array(array, item)
   end
   return false
 end
+
+wallets = {
+  "Alice" => 12,
+  "Bob"  => 10,
+  "Charlie"  => 1356,
+  "Dave" => 1
+}
+
+def get_first_key(hash)
+  first = hash.keys[0]
+  return first
+end
